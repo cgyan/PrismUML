@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>60</x>
+      <y>520</y>
+      <w>320</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>EVENTQUEUE
+--
+- events : std::queue&lt;std::pair&lt;Object *, Event *&gt;
+--
++ hasPendingEvents() : bool
++ getNextEvent() : Event *
+bg=orange</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>800</x>
+      <y>340</y>
+      <w>220</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;abstract&gt;&gt;
+SYSTEMEVENTDISPATCHER
+--
+/+ hasPendingEvents() : bool/
+/+ processEvents() : bool/
+bg=red</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>680</x>
+      <y>500</y>
+      <w>220</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>WIN32_SYSTEMEVENTDISPATCHER
+--
++ hasPendingEvents() : bool
++ processEvents() : bool
+bg=orange</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>780</x>
+      <y>440</y>
+      <w>150</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>130.0;10.0;130.0;40.0;10.0;40.0;10.0;60.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>900</x>
+      <y>440</y>
+      <w>160</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;40.0;140.0;40.0;140.0;60.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>940</x>
+      <y>500</y>
+      <w>220</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>OSX_SYSTEMEVENTDISPATCHER
+--
++ hasPendingEvents() : bool
++ processEvents() : bool
+bg=orange</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>60</x>
+      <y>220</y>
+      <w>300</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>RUNLOOP
+--
+- eventQueue : EventQueue *
+--
++ start() : void
++ stop() : void
++ notify(receiver : Object *, event : Event *) : void
+--
+- processEvents() : void
+bg=orange</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>1200</x>
+      <y>390</y>
+      <w>260</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>processEvents() takes a native event, 
+converts it into an Event obj and places it
+in the RunLoop::eventQueue
+bg=light_gray</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1010</x>
+      <y>390</y>
+      <w>210</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;10.0;190.0;10.0</additional_attributes>
+  </element>
+</diagram>
