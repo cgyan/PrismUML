@@ -15,6 +15,7 @@
 --
 + hasPendingEvents() : bool
 + getNextEvent() : Event *
++ addEvent(receiver:Object *, event:Event *)
 bg=orange</panel_attributes>
     <additional_attributes/>
   </element>
@@ -100,6 +101,7 @@ bg=orange</panel_attributes>
 --
 + start() : void
 + stop() : void
++ isRunning() : bool
 + notify(receiver : Object *, event : Event *) : void
 --
 - processEvents() : void
