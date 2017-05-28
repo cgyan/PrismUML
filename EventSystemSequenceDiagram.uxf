@@ -4,8 +4,8 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>128</x>
-      <y>176</y>
+      <x>160</x>
+      <y>144</y>
       <w>32</w>
       <h>1272</h>
     </coordinates>
@@ -15,8 +15,8 @@
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>224</x>
-      <y>112</y>
+      <x>256</x>
+      <y>80</y>
       <w>80</w>
       <h>24</h>
     </coordinates>
@@ -27,8 +27,8 @@ bg=orange</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>136</x>
-      <y>168</y>
+      <x>168</x>
+      <y>136</y>
       <w>136</w>
       <h>32</h>
     </coordinates>
@@ -39,8 +39,8 @@ creates</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>256</x>
-      <y>184</y>
+      <x>288</x>
+      <y>152</y>
       <w>16</w>
       <h>1240</h>
     </coordinates>
@@ -52,8 +52,8 @@ bg=red</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>256</x>
-      <y>128</y>
+      <x>288</x>
+      <y>96</y>
       <w>24</w>
       <h>72</h>
     </coordinates>
@@ -63,8 +63,8 @@ bg=red</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>136</x>
-      <y>208</y>
+      <x>168</x>
+      <y>176</y>
       <w>136</w>
       <h>32</h>
     </coordinates>
@@ -75,8 +75,8 @@ start()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>264</x>
-      <y>240</y>
+      <x>296</x>
+      <y>208</y>
       <w>120</w>
       <h>48</h>
     </coordinates>
@@ -87,8 +87,8 @@ processEvents()</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>592</x>
-      <y>112</y>
+      <x>624</x>
+      <y>80</y>
       <w>80</w>
       <h>24</h>
     </coordinates>
@@ -99,8 +99,8 @@ bg=orange</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>264</x>
-      <y>528</y>
+      <x>296</x>
+      <y>496</y>
       <w>376</w>
       <h>32</h>
     </coordinates>
@@ -111,8 +111,8 @@ handleEvent(event : Event *)</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>624</x>
-      <y>544</y>
+      <x>656</x>
+      <y>512</y>
       <w>16</w>
       <h>48</h>
     </coordinates>
@@ -124,8 +124,8 @@ bg=red</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>624</x>
-      <y>128</y>
+      <x>656</x>
+      <y>96</y>
       <w>24</w>
       <h>432</h>
     </coordinates>
@@ -135,21 +135,20 @@ bg=red</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>464</x>
-      <y>112</y>
-      <w>112</w>
-      <h>32</h>
+      <x>480</x>
+      <y>80</y>
+      <w>128</w>
+      <h>24</h>
     </coordinates>
-    <panel_attributes>prismEventQueue : 
-EventQueue
+    <panel_attributes>postQueue : EventQueue
 bg=orange</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>384</x>
-      <y>32</y>
+      <x>416</x>
+      <y>0</y>
       <w>16</w>
       <h>48</h>
     </coordinates>
@@ -161,31 +160,31 @@ bg=red</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>512</x>
-      <y>136</y>
+      <x>544</x>
+      <y>96</y>
       <w>24</w>
-      <h>272</h>
+      <h>280</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;320.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;330.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>264</x>
-      <y>384</y>
+      <x>296</x>
+      <y>352</y>
       <w>264</w>
       <h>32</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
-getNextQueuedEvent()</panel_attributes>
+getNextEvent()</panel_attributes>
     <additional_attributes>310.0;20.0;10.0;20.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>264</x>
-      <y>472</y>
+      <x>296</x>
+      <y>440</y>
       <w>232</w>
       <h>48</h>
     </coordinates>
@@ -196,8 +195,8 @@ notify(receiver : Object *, event : Event *)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>264</x>
-      <y>424</y>
+      <x>296</x>
+      <y>392</y>
       <w>264</w>
       <h>32</h>
     </coordinates>
@@ -208,8 +207,8 @@ std::pair&lt;Object *, Event *&gt;</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>512</x>
-      <y>392</y>
+      <x>544</x>
+      <y>360</y>
       <w>16</w>
       <h>56</h>
     </coordinates>
@@ -221,21 +220,21 @@ bg=red</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>192</x>
-      <y>288</y>
+      <x>224</x>
+      <y>256</y>
       <w>1048</w>
-      <h>1096</h>
+      <h>1256</h>
     </coordinates>
     <panel_attributes>loop
-bg=light_gray
+bg=0xbbbbbb
 layer=-1</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>264</x>
-      <y>576</y>
+      <x>296</x>
+      <y>544</y>
       <w>376</w>
       <h>24</h>
     </coordinates>
@@ -245,8 +244,8 @@ layer=-1</panel_attributes>
   <element>
     <id>UMLActor</id>
     <coordinates>
-      <x>128</x>
-      <y>88</y>
+      <x>160</x>
+      <y>56</y>
       <w>64</w>
       <h>80</h>
     </coordinates>
@@ -256,8 +255,8 @@ layer=-1</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>184</x>
-      <y>296</y>
+      <x>216</x>
+      <y>264</y>
       <w>1072</w>
       <h>32</h>
     </coordinates>
@@ -269,33 +268,8 @@ isRunning
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>216</x>
-      <y>632</y>
-      <w>960</w>
-      <h>432</h>
-    </coordinates>
-    <panel_attributes>while
-bg=pink
-layer=1</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>208</x>
-      <y>640</y>
-      <w>984</w>
-      <h>32</h>
-    </coordinates>
-    <panel_attributes>lt=.
-nativeQueuedEventsPending</panel_attributes>
-    <additional_attributes>10.0;20.0;1210.0;20.0</additional_attributes>
-  </element>
-  <element>
-    <id>UMLFrame</id>
-    <coordinates>
-      <x>216</x>
-      <y>344</y>
+      <x>248</x>
+      <y>312</y>
       <w>456</w>
       <h>264</h>
     </coordinates>
@@ -307,69 +281,43 @@ layer=1</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>208</x>
-      <y>352</y>
+      <x>240</x>
+      <y>320</y>
       <w>480</w>
       <h>32</h>
     </coordinates>
     <panel_attributes>lt=.
-queuedEventsPending</panel_attributes>
+hasPendingEvents()</panel_attributes>
     <additional_attributes>10.0;20.0;580.0;20.0</additional_attributes>
   </element>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>688</x>
-      <y>112</y>
-      <w>112</w>
-      <h>32</h>
+      <x>720</x>
+      <y>80</y>
+      <w>136</w>
+      <h>24</h>
     </coordinates>
-    <panel_attributes>nativeEventQueue :
-Event Queue
+    <panel_attributes>nativeQueue : Event Queue
 bg=orange</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
-    <id>UMLGeneric</id>
-    <coordinates>
-      <x>736</x>
-      <y>688</y>
-      <w>16</w>
-      <h>32</h>
-    </coordinates>
-    <panel_attributes>
-layer=1
-bg=red</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
     <id>Relation</id>
     <coordinates>
-      <x>264</x>
-      <y>672</y>
-      <w>488</w>
-      <h>32</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;-
-getNextQueuedEvent</panel_attributes>
-    <additional_attributes>590.0;20.0;10.0;20.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>736</x>
-      <y>136</y>
+      <x>768</x>
+      <y>96</y>
       <w>24</w>
-      <h>568</h>
+      <h>536</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;690.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;650.0</additional_attributes>
   </element>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>872</x>
-      <y>112</y>
+      <x>904</x>
+      <y>80</y>
       <w>112</w>
       <h>24</h>
     </coordinates>
@@ -380,44 +328,19 @@ bg=orange</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>744</x>
-      <y>688</y>
-      <w>192</w>
-      <h>32</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;-
-getNextQueuedEvent</panel_attributes>
-    <additional_attributes>220.0;20.0;10.0;20.0</additional_attributes>
-  </element>
-  <element>
-    <id>UMLGeneric</id>
-    <coordinates>
-      <x>920</x>
-      <y>704</y>
-      <w>16</w>
-      <h>168</h>
-    </coordinates>
-    <panel_attributes>
-layer=1
-bg=red</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>920</x>
-      <y>128</y>
+      <x>952</x>
+      <y>96</y>
       <w>24</w>
-      <h>592</h>
+      <h>552</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;720.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;670.0</additional_attributes>
   </element>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>408</x>
-      <y>40</y>
+      <x>440</x>
+      <y>8</y>
       <w>112</w>
       <h>24</h>
     </coordinates>
@@ -428,8 +351,8 @@ bg=orange</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>1000</x>
-      <y>112</y>
+      <x>1168</x>
+      <y>80</y>
       <w>112</w>
       <h>24</h>
     </coordinates>
@@ -440,33 +363,8 @@ bg=orange</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>928</x>
-      <y>704</y>
-      <w>136</w>
-      <h>32</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;-
-GetMessage()</panel_attributes>
-    <additional_attributes>150.0;20.0;10.0;20.0</additional_attributes>
-  </element>
-  <element>
-    <id>UMLGeneric</id>
-    <coordinates>
-      <x>1048</x>
-      <y>720</y>
-      <w>16</w>
-      <h>40</h>
-    </coordinates>
-    <panel_attributes>
-layer=1
-bg=red</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>536</x>
-      <y>32</y>
+      <x>568</x>
+      <y>0</y>
       <w>24</w>
       <h>56</h>
     </coordinates>
@@ -476,19 +374,19 @@ bg=red</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1048</x>
-      <y>128</y>
+      <x>1216</x>
+      <y>96</y>
       <w>24</w>
-      <h>608</h>
+      <h>568</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;740.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;690.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>560</x>
-      <y>56</y>
+      <x>592</x>
+      <y>24</y>
       <w>72</w>
       <h>24</h>
     </coordinates>
@@ -498,127 +396,8 @@ bg=red</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>928</x>
-      <y>744</y>
-      <w>136</w>
-      <h>24</h>
-    </coordinates>
-    <panel_attributes>lt=.&gt;</panel_attributes>
-    <additional_attributes>150.0;10.0;10.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>928</x>
-      <y>784</y>
-      <w>120</w>
-      <h>48</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;-
-convertToEvent()</panel_attributes>
-    <additional_attributes>10.0;40.0;40.0;40.0;40.0;10.0;10.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>UMLGeneric</id>
-    <coordinates>
-      <x>736</x>
-      <y>848</y>
-      <w>16</w>
-      <h>48</h>
-    </coordinates>
-    <panel_attributes>
-layer=1
-bg=red</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>744</x>
-      <y>840</y>
-      <w>192</w>
-      <h>32</h>
-    </coordinates>
-    <panel_attributes>lt=.&gt;
-std::pair&lt;Object *, Event *&gt;</panel_attributes>
-    <additional_attributes>220.0;20.0;10.0;20.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>736</x>
-      <y>712</y>
-      <w>24</w>
-      <h>152</h>
-    </coordinates>
-    <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;170.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>264</x>
-      <y>872</y>
-      <w>488</w>
-      <h>32</h>
-    </coordinates>
-    <panel_attributes>lt=.&gt;
-std::pair&lt;Object *, Event *&gt;</panel_attributes>
-    <additional_attributes>590.0;20.0;10.0;20.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>264</x>
-      <y>976</y>
-      <w>376</w>
-      <h>32</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;-
-handleEvent(event : Event *)</panel_attributes>
-    <additional_attributes>450.0;20.0;10.0;20.0</additional_attributes>
-  </element>
-  <element>
-    <id>UMLGeneric</id>
-    <coordinates>
-      <x>624</x>
-      <y>992</y>
-      <w>16</w>
-      <h>48</h>
-    </coordinates>
-    <panel_attributes>
-layer=1
-bg=red</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>264</x>
-      <y>920</y>
-      <w>232</w>
-      <h>48</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;-
-notify(receiver : Object *, event : Event *)</panel_attributes>
-    <additional_attributes>10.0;40.0;40.0;40.0;40.0;10.0;10.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>264</x>
-      <y>1024</y>
-      <w>376</w>
-      <h>24</h>
-    </coordinates>
-    <panel_attributes>lt=.&gt;</panel_attributes>
-    <additional_attributes>450.0;10.0;10.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>624</x>
-      <y>584</y>
+      <x>656</x>
+      <y>552</y>
       <w>24</w>
       <h>424</h>
     </coordinates>
@@ -628,20 +407,81 @@ notify(receiver : Object *, event : Event *)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>264</x>
-      <y>1272</y>
-      <w>376</w>
+      <x>544</x>
+      <y>408</y>
+      <w>24</w>
+      <h>720</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;880.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>296</x>
+      <y>600</y>
+      <w>488</w>
       <h>32</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
-handleEvent(event : Event *)</panel_attributes>
-    <additional_attributes>450.0;20.0;10.0;20.0</additional_attributes>
+refresh() : void</panel_attributes>
+    <additional_attributes>590.0;20.0;10.0;20.0</additional_attributes>
   </element>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>624</x>
-      <y>1288</y>
+      <x>768</x>
+      <y>616</y>
+      <w>16</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>
+layer=1
+bg=red</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>952</x>
+      <y>632</y>
+      <w>16</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>
+layer=1
+bg=red</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>776</x>
+      <y>616</y>
+      <w>192</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+refresh() : void</panel_attributes>
+    <additional_attributes>220.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>960</x>
+      <y>632</y>
+      <w>272</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+GetMessage()</panel_attributes>
+    <additional_attributes>320.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>1216</x>
+      <y>648</y>
       <w>16</w>
       <h>48</h>
     </coordinates>
@@ -653,20 +493,91 @@ bg=red</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>264</x>
-      <y>1128</y>
-      <w>264</w>
-      <h>32</h>
+      <x>776</x>
+      <y>688</y>
+      <w>192</w>
+      <h>24</h>
     </coordinates>
-    <panel_attributes>lt=&lt;-
-getNextQueuedEvent()</panel_attributes>
-    <additional_attributes>310.0;20.0;10.0;20.0</additional_attributes>
+    <panel_attributes>lt=.&gt;</panel_attributes>
+    <additional_attributes>220.0;10.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>264</x>
-      <y>1216</y>
+      <x>296</x>
+      <y>712</y>
+      <w>488</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>lt=.&gt;</panel_attributes>
+    <additional_attributes>590.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>920</x>
+      <y>592</y>
+      <w>328</w>
+      <h>128</h>
+    </coordinates>
+    <panel_attributes>loop
+bg=0xaaaaaa</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>960</x>
+      <y>656</y>
+      <w>248</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+addEvent(receiver : Object *, event : Event *)</panel_attributes>
+    <additional_attributes>10.0;40.0;40.0;40.0;40.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>296</x>
+      <y>944</y>
+      <w>376</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+handleEvent(event : Event *)</panel_attributes>
+    <additional_attributes>450.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>656</x>
+      <y>960</y>
+      <w>16</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>
+layer=1
+bg=red</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>296</x>
+      <y>800</y>
+      <w>488</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+getNextEvent()</panel_attributes>
+    <additional_attributes>590.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>296</x>
+      <y>888</y>
       <w>232</w>
       <h>48</h>
     </coordinates>
@@ -677,20 +588,20 @@ notify(receiver : Object *, event : Event *)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>264</x>
-      <y>1168</y>
-      <w>264</w>
+      <x>296</x>
+      <y>840</y>
+      <w>488</w>
       <h>32</h>
     </coordinates>
     <panel_attributes>lt=.&gt;
 std::pair&lt;Object *, Event *&gt;</panel_attributes>
-    <additional_attributes>310.0;20.0;10.0;20.0</additional_attributes>
+    <additional_attributes>590.0;20.0;10.0;20.0</additional_attributes>
   </element>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>512</x>
-      <y>1136</y>
+      <x>768</x>
+      <y>808</y>
       <w>16</w>
       <h>56</h>
     </coordinates>
@@ -702,8 +613,8 @@ bg=red</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>264</x>
-      <y>1320</y>
+      <x>296</x>
+      <y>992</y>
       <w>376</w>
       <h>24</h>
     </coordinates>
@@ -713,9 +624,9 @@ bg=red</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>216</x>
-      <y>1088</y>
-      <w>456</w>
+      <x>248</x>
+      <y>760</y>
+      <w>552</w>
       <h>264</h>
     </coordinates>
     <panel_attributes>while
@@ -726,86 +637,196 @@ layer=1</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>208</x>
-      <y>1096</y>
+      <x>240</x>
+      <y>768</y>
+      <w>576</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=.
+hasPendingEvents()</panel_attributes>
+    <additional_attributes>10.0;20.0;700.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>768</x>
+      <y>728</y>
+      <w>24</w>
+      <h>96</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;100.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>296</x>
+      <y>1248</y>
+      <w>376</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+handleEvent(event : Event *)</panel_attributes>
+    <additional_attributes>450.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>656</x>
+      <y>1264</y>
+      <w>16</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>
+layer=1
+bg=red</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>296</x>
+      <y>1104</y>
+      <w>264</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+getNextEvent()</panel_attributes>
+    <additional_attributes>310.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>296</x>
+      <y>1192</y>
+      <w>232</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+notify(receiver : Object *, event : Event *)</panel_attributes>
+    <additional_attributes>10.0;40.0;40.0;40.0;40.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>296</x>
+      <y>1144</y>
+      <w>264</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=.&gt;
+std::pair&lt;Object *, Event *&gt;</panel_attributes>
+    <additional_attributes>310.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>544</x>
+      <y>1112</y>
+      <w>16</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>
+layer=1
+bg=red</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>296</x>
+      <y>1296</y>
+      <w>376</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>lt=.&gt;</panel_attributes>
+    <additional_attributes>450.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>248</x>
+      <y>1064</y>
+      <w>456</w>
+      <h>264</h>
+    </coordinates>
+    <panel_attributes>while
+bg=pink
+layer=0</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>240</x>
+      <y>1072</y>
       <w>480</w>
       <h>32</h>
     </coordinates>
     <panel_attributes>lt=.
-queuedEventsPending</panel_attributes>
+hasPendingEvents()</panel_attributes>
     <additional_attributes>10.0;20.0;580.0;20.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>624</x>
-      <y>1032</y>
+      <x>656</x>
+      <y>1000</y>
       <w>24</w>
-      <h>272</h>
+      <h>280</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;320.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;330.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>512</x>
-      <y>440</y>
+      <x>544</x>
+      <y>1160</y>
       <w>24</w>
-      <h>712</h>
+      <h>240</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;870.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;280.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>512</x>
-      <y>1184</y>
+      <x>656</x>
+      <y>1304</y>
       <w>24</w>
-      <h>272</h>
+      <h>96</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;320.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;100.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>624</x>
-      <y>1328</y>
+      <x>768</x>
+      <y>856</y>
       <w>24</w>
-      <h>128</h>
+      <h>544</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;140.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;660.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>736</x>
-      <y>888</y>
+      <x>952</x>
+      <y>696</y>
       <w>24</w>
-      <h>568</h>
+      <h>696</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;690.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;850.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>920</x>
-      <y>864</y>
-      <w>24</w>
-      <h>592</h>
-    </coordinates>
-    <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;720.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>1048</x>
-      <y>752</y>
+      <x>1216</x>
+      <y>688</y>
       <w>24</w>
       <h>704</h>
     </coordinates>
