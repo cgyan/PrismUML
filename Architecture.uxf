@@ -5,7 +5,7 @@
     <id>UMLDeployment</id>
     <coordinates>
       <x>320</x>
-      <y>610</y>
+      <y>380</y>
       <w>200</w>
       <h>80</h>
     </coordinates>
@@ -17,7 +17,7 @@ bg=green</panel_attributes>
     <id>UMLDeployment</id>
     <coordinates>
       <x>120</x>
-      <y>770</y>
+      <y>540</y>
       <w>980</w>
       <h>80</h>
     </coordinates>
@@ -29,7 +29,7 @@ bg=red</panel_attributes>
     <id>UMLDeployment</id>
     <coordinates>
       <x>120</x>
-      <y>690</y>
+      <y>460</y>
       <w>980</w>
       <h>80</h>
     </coordinates>
@@ -41,12 +41,26 @@ bg=pink</panel_attributes>
     <id>UMLDeployment</id>
     <coordinates>
       <x>120</x>
-      <y>610</y>
+      <y>380</y>
       <w>200</w>
       <h>80</h>
     </coordinates>
     <panel_attributes>PrismUI
 bg=green</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>430</x>
+      <y>30</y>
+      <w>340</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>valign=center
+halign=center
+Prism Architectural Structure
+bg=gray</panel_attributes>
     <additional_attributes/>
   </element>
 </diagram>
