@@ -4,7 +4,7 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>192</x>
+      <x>96</x>
       <y>108</y>
       <w>24</w>
       <h>954</h>
@@ -15,7 +15,7 @@
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>264</x>
+      <x>168</x>
       <y>60</y>
       <w>60</w>
       <h>18</h>
@@ -27,7 +27,7 @@ bg=orange</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>198</x>
+      <x>102</x>
       <y>102</y>
       <w>102</w>
       <h>24</h>
@@ -39,7 +39,7 @@ creates</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>288</x>
+      <x>192</x>
       <y>114</y>
       <w>12</w>
       <h>930</h>
@@ -52,7 +52,7 @@ bg=red</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>288</x>
+      <x>192</x>
       <y>72</y>
       <w>18</w>
       <h>54</h>
@@ -63,7 +63,7 @@ bg=red</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>198</x>
+      <x>102</x>
       <y>132</y>
       <w>102</w>
       <h>24</h>
@@ -75,7 +75,7 @@ start()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>294</x>
+      <x>198</x>
       <y>156</y>
       <w>96</w>
       <h>36</h>
@@ -87,7 +87,7 @@ processEvents()</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>540</x>
+      <x>444</x>
       <y>60</y>
       <w>60</w>
       <h>18</h>
@@ -99,7 +99,7 @@ bg=orange</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>294</x>
+      <x>198</x>
       <y>372</y>
       <w>282</w>
       <h>24</h>
@@ -111,7 +111,7 @@ handleEvent(event : Event *)</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>564</x>
+      <x>468</x>
       <y>384</y>
       <w>12</w>
       <h>36</h>
@@ -124,7 +124,7 @@ bg=red</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>564</x>
+      <x>468</x>
       <y>72</y>
       <w>18</w>
       <h>324</h>
@@ -135,7 +135,7 @@ bg=red</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>432</x>
+      <x>336</x>
       <y>60</y>
       <w>96</w>
       <h>18</h>
@@ -147,7 +147,7 @@ bg=orange</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>384</x>
+      <x>288</x>
       <y>0</y>
       <w>12</w>
       <h>36</h>
@@ -160,7 +160,7 @@ bg=red</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>480</x>
+      <x>384</x>
       <y>72</y>
       <w>18</w>
       <h>210</h>
@@ -171,7 +171,7 @@ bg=red</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>294</x>
+      <x>198</x>
       <y>264</y>
       <w>198</w>
       <h>24</h>
@@ -183,7 +183,7 @@ getNextEvent()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>294</x>
+      <x>198</x>
       <y>330</y>
       <w>186</w>
       <h>36</h>
@@ -195,7 +195,7 @@ notify(receiver : Object *, event : Event *)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>294</x>
+      <x>198</x>
       <y>294</y>
       <w>198</w>
       <h>24</h>
@@ -207,7 +207,7 @@ std::pair&lt;Object *, Event *&gt;</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>480</x>
+      <x>384</x>
       <y>270</y>
       <w>12</w>
       <h>42</h>
@@ -220,7 +220,7 @@ bg=red</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>240</x>
+      <x>144</x>
       <y>192</y>
       <w>786</w>
       <h>942</h>
@@ -233,7 +233,7 @@ layer=-1</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>294</x>
+      <x>198</x>
       <y>408</y>
       <w>282</w>
       <h>18</h>
@@ -244,7 +244,7 @@ layer=-1</panel_attributes>
   <element>
     <id>UMLActor</id>
     <coordinates>
-      <x>192</x>
+      <x>96</x>
       <y>42</y>
       <w>48</w>
       <h>66</h>
@@ -255,7 +255,7 @@ layer=-1</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>234</x>
+      <x>138</x>
       <y>198</y>
       <w>804</w>
       <h>30</h>
@@ -268,7 +268,7 @@ isRunning
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>258</x>
+      <x>162</x>
       <y>234</y>
       <w>342</w>
       <h>246</h>
@@ -281,7 +281,7 @@ layer=1</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>252</x>
+      <x>156</x>
       <y>240</y>
       <w>360</w>
       <h>24</h>
@@ -293,7 +293,7 @@ hasPendingEvents()</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>612</x>
+      <x>516</x>
       <y>60</y>
       <w>102</w>
       <h>18</h>
@@ -305,7 +305,7 @@ bg=orange</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>648</x>
+      <x>552</x>
       <y>72</y>
       <w>18</w>
       <h>450</h>
@@ -316,7 +316,7 @@ bg=orange</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>750</x>
+      <x>654</x>
       <y>60</y>
       <w>84</w>
       <h>18</h>
@@ -328,7 +328,7 @@ bg=orange</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>786</x>
+      <x>690</x>
       <y>72</y>
       <w>18</w>
       <h>462</h>
@@ -339,7 +339,7 @@ bg=orange</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>402</x>
+      <x>306</x>
       <y>6</y>
       <w>84</w>
       <h>18</h>
@@ -351,7 +351,7 @@ bg=orange</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>948</x>
+      <x>852</x>
       <y>60</y>
       <w>84</w>
       <h>18</h>
@@ -363,7 +363,7 @@ bg=orange</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>498</x>
+      <x>402</x>
       <y>0</y>
       <w>18</w>
       <h>42</h>
@@ -374,7 +374,7 @@ bg=orange</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>984</x>
+      <x>888</x>
       <y>72</y>
       <w>18</w>
       <h>474</h>
@@ -385,7 +385,7 @@ bg=orange</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>516</x>
+      <x>420</x>
       <y>18</y>
       <w>54</w>
       <h>18</h>
@@ -396,7 +396,7 @@ bg=orange</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>564</x>
+      <x>468</x>
       <y>414</y>
       <w>18</w>
       <h>366</h>
@@ -407,7 +407,7 @@ bg=orange</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>480</x>
+      <x>384</x>
       <y>306</y>
       <w>18</w>
       <h>588</h>
@@ -418,7 +418,7 @@ bg=orange</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>294</x>
+      <x>198</x>
       <y>498</y>
       <w>366</w>
       <h>24</h>
@@ -430,7 +430,7 @@ refresh() : void</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>648</x>
+      <x>552</x>
       <y>510</y>
       <w>12</w>
       <h>90</h>
@@ -443,7 +443,7 @@ bg=red</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>786</x>
+      <x>690</x>
       <y>522</y>
       <w>12</w>
       <h>54</h>
@@ -456,7 +456,7 @@ bg=red</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>654</x>
+      <x>558</x>
       <y>510</y>
       <w>144</w>
       <h>24</h>
@@ -468,7 +468,7 @@ refresh() : void</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>792</x>
+      <x>696</x>
       <y>522</y>
       <w>204</w>
       <h>24</h>
@@ -480,7 +480,7 @@ GetMessage()</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>984</x>
+      <x>888</x>
       <y>534</y>
       <w>12</w>
       <h>36</h>
@@ -493,7 +493,7 @@ bg=red</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>654</x>
+      <x>558</x>
       <y>564</y>
       <w>144</w>
       <h>18</h>
@@ -504,7 +504,7 @@ bg=red</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>294</x>
+      <x>198</x>
       <y>582</y>
       <w>366</w>
       <h>18</h>
@@ -515,7 +515,7 @@ bg=red</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>762</x>
+      <x>666</x>
       <y>492</y>
       <w>246</w>
       <h>96</h>
@@ -527,7 +527,7 @@ bg=0xaaaaaa</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>792</x>
+      <x>696</x>
       <y>540</y>
       <w>204</w>
       <h>36</h>
@@ -539,7 +539,7 @@ addEvent(receiver : Object *, event : Event *)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>294</x>
+      <x>198</x>
       <y>756</y>
       <w>282</w>
       <h>24</h>
@@ -551,7 +551,7 @@ handleEvent(event : Event *)</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>564</x>
+      <x>468</x>
       <y>768</y>
       <w>12</w>
       <h>36</h>
@@ -564,7 +564,7 @@ bg=red</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>294</x>
+      <x>198</x>
       <y>648</y>
       <w>366</w>
       <h>24</h>
@@ -576,7 +576,7 @@ getNextEvent()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>294</x>
+      <x>198</x>
       <y>714</y>
       <w>186</w>
       <h>36</h>
@@ -588,7 +588,7 @@ notify(receiver : Object *, event : Event *)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>294</x>
+      <x>198</x>
       <y>678</y>
       <w>366</w>
       <h>24</h>
@@ -600,7 +600,7 @@ std::pair&lt;Object *, Event *&gt;</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>648</x>
+      <x>552</x>
       <y>654</y>
       <w>12</w>
       <h>42</h>
@@ -613,7 +613,7 @@ bg=red</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>294</x>
+      <x>198</x>
       <y>792</y>
       <w>282</w>
       <h>18</h>
@@ -624,7 +624,7 @@ bg=red</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>258</x>
+      <x>162</x>
       <y>618</y>
       <w>414</w>
       <h>198</h>
@@ -637,7 +637,7 @@ layer=1</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>252</x>
+      <x>156</x>
       <y>624</y>
       <w>432</w>
       <h>24</h>
@@ -649,7 +649,7 @@ hasPendingEvents()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>648</x>
+      <x>552</x>
       <y>594</y>
       <w>18</w>
       <h>72</h>
@@ -660,7 +660,7 @@ hasPendingEvents()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>294</x>
+      <x>198</x>
       <y>984</y>
       <w>282</w>
       <h>24</h>
@@ -672,7 +672,7 @@ handleEvent(event : Event *)</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>564</x>
+      <x>468</x>
       <y>996</y>
       <w>12</w>
       <h>36</h>
@@ -685,7 +685,7 @@ bg=red</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>294</x>
+      <x>198</x>
       <y>876</y>
       <w>198</w>
       <h>24</h>
@@ -697,7 +697,7 @@ getNextEvent()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>294</x>
+      <x>198</x>
       <y>942</y>
       <w>186</w>
       <h>36</h>
@@ -709,7 +709,7 @@ notify(receiver : Object *, event : Event *)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>294</x>
+      <x>198</x>
       <y>906</y>
       <w>198</w>
       <h>24</h>
@@ -721,7 +721,7 @@ std::pair&lt;Object *, Event *&gt;</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>480</x>
+      <x>384</x>
       <y>882</y>
       <w>12</w>
       <h>42</h>
@@ -734,7 +734,7 @@ bg=red</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>294</x>
+      <x>198</x>
       <y>1020</y>
       <w>282</w>
       <h>18</h>
@@ -745,7 +745,7 @@ bg=red</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>258</x>
+      <x>162</x>
       <y>846</y>
       <w>342</w>
       <h>198</h>
@@ -758,7 +758,7 @@ layer=0</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>252</x>
+      <x>156</x>
       <y>852</y>
       <w>360</w>
       <h>24</h>
@@ -770,7 +770,7 @@ hasPendingEvents()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>564</x>
+      <x>468</x>
       <y>798</y>
       <w>18</w>
       <h>210</h>
@@ -781,7 +781,7 @@ hasPendingEvents()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>480</x>
+      <x>384</x>
       <y>918</y>
       <w>18</w>
       <h>180</h>
@@ -792,7 +792,7 @@ hasPendingEvents()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>564</x>
+      <x>468</x>
       <y>1026</y>
       <w>18</w>
       <h>72</h>
@@ -803,7 +803,7 @@ hasPendingEvents()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>648</x>
+      <x>552</x>
       <y>690</y>
       <w>18</w>
       <h>408</h>
@@ -814,7 +814,7 @@ hasPendingEvents()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>786</x>
+      <x>690</x>
       <y>570</y>
       <w>18</w>
       <h>522</h>
@@ -825,7 +825,7 @@ hasPendingEvents()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>984</x>
+      <x>888</x>
       <y>564</y>
       <w>18</w>
       <h>528</h>
@@ -836,7 +836,7 @@ hasPendingEvents()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>294</x>
+      <x>198</x>
       <y>432</y>
       <w>84</w>
       <h>36</h>
